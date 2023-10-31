@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Lucas.css">
+    <link rel="shortcut icon" href="Turismo2.png" type="image/x-icon">
+    <title>Formulário de Inscrição</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/Gusta.html"><img src="/3linhas.png" alt="" height="60"></a></li>
+                <li><a href="/Ian.html">Dúvidas</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="/Lucas.html">ETEC</a></li>
+                <li><input type="text" id="pesquisa" placeholder="Buscar"></li>
+                <li><a href="/Rafael.html" target="_blank">Aulas</a></li>
+                <li><a href="#"><img src="/Turismo2.png" alt="" height="70" style="margin-right: 40px;margin-top: 15px;"></a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <br><br>
+    <h1>Formulário de Inscrição</h1>
+    <form action="#" method="post" id="registration-form">
+        <fieldset>
+            <legend>Identificação do Usuário</legend>
+            <div class="formulario">
+                <label for="nome">Nome completo do candidato*</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="formulario">
+                <label for="cpf">CPF do Candidato</label>
+                <input oninput="mascara(this)" type="text" id="cpf" name="cpf" maxlength="14" required>
+            </div>
+            <div class="formulario">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="formulario">
+                <label for="email2">Repita o E-mail</label>
+                <input type="email" id="email2" name="email2" required>
+            </div>
+        </fieldset>
+        <div class="buttons">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+    <footer>
+        <img src="spgov.png" alt="Governo de São Paulo">
+        <img src="fundfat.png" alt="Fundação FAP">
+        <img src="cps.png" alt="Centro Paula Souza">
+    </footer>
+    <script>
+      function mascara(i){
+   
+   var v = i.value;
+   
+   if(isNaN(v[v.length-1])){ 
+      i.value = v.substring(0, v.length-1);
+      return;
+   }
+   
+   i.setAttribute("maxlength", "14");
+   if (v.length == 3 || v.length == 7) i.value += ".";
+   if (v.length == 11) i.value += "-";
+
+}
+  </script>
+</body>
+</html>

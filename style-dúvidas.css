@@ -1,0 +1,145 @@
+div2{
+    position: absolute;
+    top: 5%;
+}
+
+#sub-titu1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #657479;
+    font-size: 50px;
+    position: absolute;
+    left: 23%;
+    top: 3%;
+}
+div3 {
+    width: 750px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    border-top: 30px solid rgb(15, 104, 236);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 20px;
+}
+section {
+    width: 60%;
+    max-width: 600px;
+}
+section details summary {
+    background-color: rgb(15, 104, 236);
+    padding: 2%;
+    border-bottom: 2px solid #282828;
+    font-weight: 600;
+}
+section details p {
+    background-color: #282828;
+    color: #fff;
+    padding: 2%;
+}
+div4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    top: 150px;
+    left: 160px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+body {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+
+nav {
+    
+ 
+    height: 80px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+ul {
+    margin-left: 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     gap: 180px;
+
+}
+
+
+li {
+
+    display: flex;
+
+
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    transition: 0.5;
+}
+
+input {
+    margin-left: 12px;
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+
+input::placeholder {
+    color: rgb(146, 144, 144);
+}
+
+a:hover {
+    color: rgb(55, 0, 255);
+
+}
+
+footer {
+    background-color: #b4b4b4;
+    color: #fff;
+    text-align: center;
+    
+    width: 100%;
+    top: 130%;
+    position: absolute;
+    
+    
+  
+  }
+  
+  footer img {
+    margin: 20px;
+    width: 100px;
+    height: auto;
+  }
+  

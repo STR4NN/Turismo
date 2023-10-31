@@ -1,0 +1,108 @@
+  @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Young Serif', serif;
+  }
+
+  body {
+      background-color: rgb(255, 255, 255);
+  }
+
+  nav {
+      position: fixed;
+      top: 0;
+      height: 80px;
+      width: 100%;
+      background-color: rgb(255, 255, 255);
+  }
+
+  ul {
+      margin-left: 20px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+     gap: 180px;
+
+  }
+
+
+  li {
+
+      display: flex;
+
+
+      list-style: none;
+
+  }
+
+  a {
+      text-decoration: none;
+      color: black;
+      font-size: 25px;
+      transition: 0.5;
+  }
+
+  input {
+      margin-left: 12px;
+      width: 250px;
+      height: 45px;
+      border-radius: 10px;
+      padding: 10px;
+      outline: none;
+      background-color: rgb(255, 255, 255);
+      border: none;
+      color: rgb(0, 0, 0);
+      border: 1px solid black;
+  }
+
+  input::placeholder {
+      color: rgb(146, 144, 144);
+  }
+
+  a:hover {
+      color: rgb(55, 0, 255);
+
+  }
+
+  section {
+      background-image: url(/Tu.jpg);
+      background-attachment: fixed;
+      background-position: center;
+
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 2049px;
+      height: 850px;
+      background-color: white;
+  }
+
+  .bloco1 {
+      width: 800px;
+      height: 400px;
+      background-color: rgb(255, 255, 255);
+      position: absolute;
+      top: 55%;
+      left: 31%;
+      border-top: 30px solid rgb(15, 104, 236);
+
+      border-radius: 20px;
+
+  }
+
+  .bloco1 h1 {
+      margin-top: 10px;
+      font-size: 40px;
+      text-align: center;
+  }
+
+  #descricao {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 31px;
+  }
+

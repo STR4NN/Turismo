@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+
+div3 {
+    width: 750px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    border-top: 30px solid rgb(15, 104, 236);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 20px;
+}
+#sub-titu1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
+    font-size: 50px;
+    position: absolute;
+    top: 10%;
+}
+footer {
+    background-color: #b4b4b4;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer img {
+    margin: 20px;
+    width: 100px;
+    height: auto;
+}
+
+
+
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+ul {
+    margin-left: 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  gap: 180px;
+
+}
+
+
+li {
+
+    display: flex;
+
+
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    transition: 0.5;
+    font-family: 'Young Serif', serif;
+}
+
+input {
+    margin-left: 12px;
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
